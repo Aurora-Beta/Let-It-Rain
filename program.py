@@ -9,6 +9,7 @@ response = alexa.response  # Use the Alexa response attribute to return response
 url = "https://deimos.bytekeeper.de/letitrain/rain_comp.ogg"
 debug=True
 
+# Returns Locale from intent
 def get_locale():
     locale = request.json["request"]["locale"]
     return locale
